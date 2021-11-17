@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prop7</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="hdr-block">
+            <div class="square sq-margin blue fl-left"></div>
+            <div class="square red fl-left"></div>
+            <div class="options">
+                <img src="img/fb-brand.png" class="fl-left" width="20" height="20">
+                <img src="img/yt-brand.png" class="fl-left yt-brand" width="20" height="20">
+                <ul>
+                    <li class="sep g">PL</li>
+                    <li class="sep g">FR</li>
+                    <li>DE</li>
+                </ul>
+            </div>
+        </div>
+        <img src="img/logo-light.png" class="fl-left logo" alt="DAHER">
+        <nav class="display-none-sm">
+            <a class="sep r">FIRMA</a>
+            <a class="sep r">AKTUALNOŚCI</a>
+            <a class="sep r">ZAKRES USŁUG</a>
+            <a class="sep r">REALIZACJE</a>
+            <a class="sep r">FLOTA</a>
+            <a>KONTAKT</a>
+        </nav>
+        <img src="img/menu.png" class="menu-icon" width="60" height="60">
+
+    </header>
+
+    <main>
+        <div class="block half-block">
+            <div class="fl-left margin-part light-blue display-none">
+                <img src="img/pic1.png" class="img col-img">
+            </div>
+
+            <div class="fl-left center-part">
+                <img src="img/pic2.png" class="img gray-img fl-left z-lower display-none-sm">
+                <div class="z-upper fl-left square middle-left-pos bottom-pos light-black opacity display-none-sm"></div>
+                <div class="z-middle fl-left half-center-bcg light-black right-pos first-pos opacity"></div>
+                <div class="z-upper fl-left half-center-text right-pos first-pos"> 
+                    <h2>SPECJALIŚCI OD DUŻYCH GABARYTÓW I CIĘŻARÓW</h2><hr>
+                    <p><b>Lorem ipsum dolor sit</b><br>
+                    Amet consectetur adipisicing elit. Nobis itaque error atque rem eum odit.</p>
+                    <p><b>Sunt iste quae corrupti</b><br>
+                    Eaque totam ratione sed soluta ducimus, sequi ea minima nulla dolorem?</p>
+                </div>
+                <div></div>
+            </div>
+
+            <svg class="defs-only">
+                <filter id="red" color-interpolation-filters="sRGB"
+                        x="0" y="0" height="100%" width="100%">
+                  <feColorMatrix type="matrix"
+                    values="0.75 0 0 0 0.1 
+                            0.1 0 0 0 0  
+                            0.1 0 0 0 0	 
+                            0  0 0 0 1" />
+                </filter>
+            </svg>
+            <div class="fl-left margin-part display-none">
+                <img src="img/pic3.png" class="img red-img">
+            </div>
+        </div>
+
+        <div class="block gray">
+            <div class="center-part center-margin blue">
+                <div class="z-lower fl-left half-center-text half-center-bcg blue">
+                    <h2 class="fl-left display-none-sm">FIRMA</h2>
+                    <div class="z-upper tabs "> 
+                        <div class="sep w tablinks active fl-left" onclick="tabs(event, 'historia')">HISTORIA</div>
+                        <div class="sep w tablinks fl-left" onclick="tabs(event, 'certyfikaty')">certyfikaty</div>
+                        <div class="tablinks fl-left" onclick="tabs(event, 'referencje')">referencje</div>
+                    </div>
+                    <hr class="hr-clear">
+                    <div class="tabcontent margin-t" id="historia" style="font-size: xx-large;">            
+                        <p>sequi ea minima nulla dolorem<br>
+                        <b>Eaque totam ratione sed soluta</b></p>
+                    </div>
+                    <div class="tabcontent" id="certyfikaty" style="font-size: xx-large;">                        
+                        <p>Sunt iste quae corrupti ea minima<br>
+                        <b>sequi ea minima nulla dolorem</b></p>
+                    </div>
+                    <div class="tabcontent" id="referencje" style="font-size: xx-large;">
+                        <p>Eaque totam ratione sed soluta ducimus<br>
+                        <b>Sunt iste quae corrupti</b></p>
+                    </div>
+
+                </div>
+        <div class="z-upper fl-left square bottom-pos middle-right-pos blue display-none-sm"></div>
+                <div class="z-lower fl-left half-center-bcg right-pos">
+                    <img src="img/pic4a.png" class="img slides">
+                    <img src="img/pic4b.png" class="img slides">
+                    <img src="img/pic4c.png" class="img slides">
+                    <img src="img/pic4d.png" class="img slides">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="center-part center-margin">
+                <div class="z-lower fl-left half-center-bcg blue">
+                    <img src="img/pic5.png" class="img col-img">
+                </div>
+                <div class="z-middle fl-left half-center-text">
+                    <h2>dacher projects dostarcza na kontynent ameryki północnej</h2><hr>
+                    <p class="text-normal">Lorem ipsum dolor sit Amet consectetur adipisicing elit. Nobis itaque error atque rem eum odit Sunt iste quae corrupti</p>
+                </div>
+                <div class="z-upper fl-left square bottom-pos  middle-left-pos red display-none-sm"></div>
+                <div class="z-lower fl-left half-center-bcg red right-pos "></div>
+                <div class="z-upper fl-left half-center-text right-pos"> 
+                    <h2>aktualności</h2><hr>
+                    <p class="text-normal">Lorem ipsum dolor sit Amet consectetur adipisicing elit. Nobis itaque error atque rem eum odit Sunt iste quae corrupti</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block half-block">
+            <div class="z-lower block fl-left blue">
+                <img src="img/pic6.png" class="img col-img">
+            </div>
+            <div class="z-upper center-margin center-text">
+                <h2>zakres usług</h2>
+                <div style="font-size: medium;">
+                    <a class="sep w">transport drogowy</a>
+                    <a class="sep w">transport kolejowy</a>
+                    <a>transport wodny - śródlądowy, morski, oceaniczny</a><br>
+                    <a class="sep w">transport specjalistyczny</a>
+                    <a class="sep w">łańcuchy logistyczne</a>
+                    <a>załadunek/przeładunek</a><br>
+                    <a class="sep w">nadzór nad transportem</a>
+                    <a class="sep w">projektowanie, ekspertyzy, realizacja</a>
+                    <a>wsparcie</a>
+                </div>
+                <hr>
+                    <p class="large-text">Lorem ipsum dolor sit Amet ipsum dolor consectetur</p>
+            </div>
+            
+        </div>
+        <div class="block">
+            <div class="fl-left margin-part display-none">
+                <img src="img/pic7.png" class="img col-img">
+            </div>
+            <div class="fl-left center-part">
+                <div class="fl-left half-center-bcg">
+                    <img src="img/pic8.png" class="img" id="image">
+                    <div id="modalModule" class="modal">
+                        <span class="close">&times;</span>  
+                        <img class="modal-content" id="modalImg">
+                    </div>
+                </div>
+                <div class="z-upper fl-left square bottom-pos  middle-left-pos blue opacity display-none-sm"></div>
+                <div class="z-middle fl-left half-center-bcg blue right-pos opacity"></div>
+                <div class="z-upper fl-left half-center-text right-pos"> 
+                    <h2>realizacje</h2><hr>
+                    <p class="m-text">gwarancja fachowej realizacji najbardziej wymagających zleceń</p>
+                </div>
+            </div>
+            <div class="fl-left z-lower half-and-margin right-pos display-none">
+                <img src="img/pic2.png" class="img col-img">
+            </div>
+        </div>
+        <div class="block">
+            <div class=" center-part center-margin ">
+                <div class="z-lower fl-left half-center-bcg red"></div>
+                <div class="z-upper fl-left half-center-text"> </div>
+
+                <div class="z-lower fl-left half-center-bcg right-pos">
+                    <img src="img/pic10.png" class="img red-img">
+                </div>
+                <div class="z-middle fl-left half-center-text">
+                    <h2>Flota</h2>
+                <div style="font-size: medium;">
+                    <a class="sep w">pojazdy szynowe</a>
+                    <a class="sep w">pojazdy drogowe</a>
+                    <a>konwój transportu</a> 
+                    <hr>
+                    <div class="large-text">Lorem ipsum dolor sit Amet ipsum dolor</div>
+                </div>
+                </div>
+                <div class="z-upper fl-left square middle-right-pos red display-none-sm"></div>
+
+            </div>
+        </div>
+        <div class="block light-gray">
+            <div class=" center-part center-margin dark-gray">
+                <div class="z-lower fl-left half-center-bcg dark-gray"></div>
+                <div class="z-upper fl-left half-center-text">
+                    <p class="m-text">serdecznie zapraszamy wszystkich zainteresowanych naszą ofertą.</p>
+                     </div>
+                <div class="z-upper fl-left square middle-left-pos light-black display-none-sm"></div>
+                <div class="z-lower fl-left half-center-bcg light-black right-pos"></div>
+                <div class="z-upper fl-left half-center-text right-pos"> 
+                    <h2>aktualności</h2><hr>
+                    <p class="text-normal">Lorem ipsum dolor sit Amet consectetur adipisicing elit. Nobis itaque error atque rem eum odit Sunt iste quae corrupti. Lorem ipsum dolor sit Amet consectetur adipisicing elit. Nobis itaque error atque rem eum odit Sunt iste quae corrupti.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="blue">
+        <div class="fl-left logo-footer">
+            <img src="img/logo-dark.png" width="160" alt="DAHER">
+        </div>
+        <div class="text-footer fl-left">POLITYKA PRYWATNOŚCI / RODO<br>IMPRESSUM</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
